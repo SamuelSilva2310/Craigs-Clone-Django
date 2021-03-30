@@ -1,11 +1,5 @@
 # Craigs-Clone-Django
 
-## How it works
-To to use the app we just type the product or service we're searching for, then the app makes a request to craigslist with our search query.
-After making the request, it uses [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to scrape data, by manipulating all data we can display to the user all results which contain the title, image, price and a link so that when a specific product is clicked it will send the user to the craigslist add.
-
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
