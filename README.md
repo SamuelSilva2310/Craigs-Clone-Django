@@ -64,8 +64,6 @@ To to use the app we just type the product or service we're searching for, then 
 After making the request, it uses [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to scrape data, by manipulating all data we can display to the user all results which contain the title, image, price and a link so that when a specific product is clicked it will send the user to the craigslist add.
 
 ### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Django](https://www.djangoproject.com/)
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [Materialize](https://materializecss.com/getting-started.html)
