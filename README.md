@@ -96,7 +96,7 @@ This section should list any major frameworks that you built your project using.
 <!-- CONTACT -->
 ## Contact
 
-samuelsilva2310 - [@https://www.instagram.com/samuel__2310/](https://www.instagram.com/samuel__2310/) - email@example.com
+Samuel Silva - [@https://www.instagram.com/samuel__2310/](https://www.instagram.com/samuel__2310/) - samuelsilva2310@gmail.com
 
 Project Link: [https://github.com/SamuelSilva2310/Craigs-Clone-Django](https://github.com/SamuelSilva2310/Craigs-Clone-Django)
 
