@@ -12,6 +12,6 @@ To to use the app we just type the product or service we're searching for, then 
 
 - **First Step:**  Type what we want to search on CraigsList for.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SamuelSilva2310/Craigs-Clone-Django/blob/main/readme_img/Menu.png?raw=true" alt="CaturrasList"/><br/>
+  <img src="https://github.com/SamuelSilva2310/Craigs-Clone-Django/blob/main/readme_img/Menu.png" alt="CaturrasList"/><br/>
   Let's bring back your computer to life!
 </p>
