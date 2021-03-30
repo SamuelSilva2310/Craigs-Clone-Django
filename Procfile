@@ -1,0 +1,1 @@
+web: gunicorn CaturrasList.wsgi --log-file -

@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>CaturrasList</title>
+    <style>
+        .card {
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .card-image {
+            height: 250px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-wrapper">
+            <a href="/" class="brand-logo">CaturrasList</a>
+            <ul id="nav-mobile" class="right">
+                <li><a href="/">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 style="text-align: center">What do you want to search for on Caturras List?</h1>
+        <div class="row">
+            <div class="col s4">
+                <!-- Promo Content 1 goes here -->
+                <div class="center">
+                    <i class="large material-icons" style="color: #EE6E73">flash_on</i>
+                    <p>Fast craigslist web scraper</p>
+                    <p class="light center">Scrape away right here with a beautiful GUI.</p>
+                </div>
+            </div>
+
+            <div class="col s4">
+                <!-- Promo Content 2 goes here -->
+                <div class="center">
+                    <i class="large material-icons" style="color: orange">camera</i>
+                    <p>Made By <a href="http://samuelsilva.live/">Samuel Silva</a></p>
+                    <p class="light center">I Built this with the objective to learn Django, followed a tutorial and learned a lot.</p>
+                </div>
+            </div>
+
+            <div class="col s4">
+                <!-- Promo Content 3 goes here -->
+                <div class="center">
+                    <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
+                    <p>A much sexier front-end to Craigslist</p>
+                    <p class="light center">I built this with ❤️</p>
+                </div>
+            </div>
+        </div>
+
+        <form action="{% url 'my_app:new_search' %}" method="post">
+            {% csrf_token %}
+            <input type="text" name="search" placeholder="Search">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+
+        {% block content %}
+        <!-- Templates for the rest goes in here -->
+        {% endblock content %}
+
+    </div>
+
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
